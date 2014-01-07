@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<link href="../css/bootstrap.css" rel="stylesheet" />
+<link href="../css/wiki.css" rel="stylesheet" type="text/css" />
+	<title>Wikipedia-Suche</title>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Weblog</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="strict.html">Strict-Elemente</a></li>
+            <li><a href="wiki.html">Wikisuche</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+</div>
+
+<div class="container">  
+	<div class="starter-template"> 
+		<h1>Suchen in Wikipedia</h1>
+		<div><a href="http://Wikipedia.de" ><img class="wikilogo" src="images/Wikipedia_logo_silver.png" alt="Wikipedia"/></a></div>
+		<div class="form">
+			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			   <fieldset>
+			   	  <legend></legend>
+			      <label class ="form" for="search">Hier bitte Ihr Suchwort eingeben:</label><br>
+			      <input class ="form" id="search" type="text"   name="search" value="" /><br>
+			      <input class ="form" id="button" type="submit" name="go" value="Artikelsuche"/>
+			      <input class ="form" id="button" type="submit" name="fulltext" value="Volltextsuche" /><br><br>
+			   </fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="footer">
+<a href="http://wave.webaim.org/report#/http%3A%2F%2Fwikisearch.cloudcontrolled.com%2F" ><img class="footer" id="wavelogo" src="images/wcag2AAA.gif" alt="WAVE Web Accessibility Tool"/></a>
+</div>
+</body>
+</html>

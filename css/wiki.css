@@ -1,0 +1,68 @@
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+body{
+	background-color: #D3D3D3;
+	padding-top: 50px;
+}
+
+h1{
+	width:auto;
+	height:auto;
+	text-align:center;
+	font-family: "Comic Sans", Times, sans-serif;
+}
+
+img.wikilogo{
+	width:170px;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.footer{
+	width:auto;
+	height:auto;
+	clear:both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.form{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+}
+
+#wavelogo{
+	width:auto;
+	height:auto;
+	padding: 0px 0px 5px 0px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+#infologo{
+	width:30px;
+	height:auto;
+	padding: 5px 0px 0px 0px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+fieldset{
+	border:0;
+}
+
+#button{
+	display:inline-block;
+	box-shadow: 1px 1px 1px #888;
+}
